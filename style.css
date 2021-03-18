@@ -64,5 +64,18 @@
 /* sponsor */
 
 .sponsor{
-    background-color: lightgrey;
+    background-color: rgb(243,245,249)
+}
+
+.img-sponsor{
+    padding: 1%;
+}
+
+/* deploy */
+
+.list-group-item{
+    border-top: none;
+    margin-bottom: none;
+    border-right: none;
+    margin-left: 30%;
 }
