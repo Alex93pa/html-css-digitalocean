@@ -73,7 +73,8 @@
 
 /* deploy */
 
-.deploy>.container>.deploy-block{
+.deploy>.container>.deploy-block,
+.deploy>.container>.deploy-row{
     padding: 30px 0;
 }
 .my-list-group-item{
@@ -89,3 +90,47 @@
     height: 100px;
 }
 
+/* designed */
+
+.designed{
+    background-color: rgb(243,245,249)
+}
+
+.designed-row{
+    padding: 30px 0;
+}
+
+.move{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.sel-pal{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.pallino-pieno{
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: blue;
+    padding: ;
+}
+
+.pallino{
+    display: inline-block;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid blue;
+}
+
+/* feature */
+.features-row{
+    padding: 30px 0;
+}
