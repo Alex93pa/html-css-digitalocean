@@ -25,6 +25,10 @@
     text-align: center;
 }
 
+.padding-title{
+    padding: 30px 0;
+}
+
 /* header */
 
 
@@ -76,12 +80,10 @@
 
 /* deploy */
 
-.deploy>.container>.deploy-block,
-.deploy>.container>.deploy-row{
-    padding: 30px 0;
-}
+
 .my-list-group-item{
-    margin-left: 30%;    position: relative;
+    margin-left: 30%;
+    position: relative;
     display: block;
     padding: 10px 15px;
     margin-bottom: -1px;
@@ -99,22 +101,23 @@
     background-color: rgb(243,245,249)
 }
 
-.designed-row{
-    padding: 30px 0;
-}
+
 
 .move{
-    top: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    font-size: 20px;
 }
 
 .move-right{
-    right: 1%;
-    top: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
+    text-align: right;
 }
+
+ .img-resp{
+     width: calc(100% - 20px - 20px - 10px);
+     /* i -20px sono lo spazio occupato dalle frecce laterali */
+ }
 
 .sel-pal{
     text-align: center;
@@ -126,7 +129,7 @@
     height: 15px;
     border-radius: 50%;
     background-color: blue;
-    padding: ;
+ 
 }
 
 .pallino{
@@ -140,9 +143,6 @@
 
 /* feature */
 
-.features-row{
-    padding: 30px 0;
-}
 
 /* service */
 
@@ -150,10 +150,27 @@
     background-color: blue;
 }
 
-.service-row{
-    padding: 30px 0;
-}
-
 .mrg-top{
     border-top: 1px solid white;
+}
+
+/* development */
+
+.rockerbox{
+    max-width: 700px;
+    background-color: white;
+    margin: auto;
+}
+
+.move2{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    font-size: 20px;
+}
+
+/* get start */
+
+.get-start{
+    background-color: blue;
 }
