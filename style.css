@@ -18,6 +18,9 @@
     color: blue;
 }
 
+.celeste{
+    color: rgb(17, 193, 246);
+}
 .center{
     text-align: center;
 }
@@ -147,3 +150,10 @@
     background-color: blue;
 }
 
+.service-row{
+    padding: 30px 0;
+}
+
+.mrg-top{
+    border-top: 1px solid white;
+}
