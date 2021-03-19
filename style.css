@@ -156,10 +156,16 @@
 
 /* development */
 
+.box{
+
+}
+
 .rockerbox{
-    max-width: 700px;
+    max-width: 80%;
     background-color: white;
     margin: auto;
+    display: inline-block;
+
 }
 
 .move2{
