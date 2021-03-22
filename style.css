@@ -3,7 +3,6 @@
     padding: auto;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* border: 1px solid black; */
 }
 
 [class*="col-"] {
@@ -37,7 +36,6 @@
 .border{
     border: 1px solid black;
 }
-
 
 /* header */
 
@@ -111,8 +109,6 @@
     background-color: rgb(243,245,249)
 }
 
-
-
 .move{
     display: inline-block;
     vertical-align: middle;
@@ -139,7 +135,6 @@
     height: 15px;
     border-radius: 50%;
     background-color: blue;
- 
 }
 
 .pallino{
@@ -166,16 +161,12 @@
 
 /* development */
 
-.box{
-
-}
 
 .rockerbox{
     max-width: 100%;
     background-color: white;
     margin: auto;
     display: inline-block;
-
 }
 
 .move2{
@@ -256,12 +247,14 @@ footer{
     right: 80px;
     bottom: 36px;
     background-color: white;
+    height: 47px;
 }
+
 .cloud-box{
     display: inline;
-    padding: 5px;
     max-width: 300px;
     margin: 0;
+   
 }
 
 .triangle{
@@ -271,4 +264,7 @@ footer{
     border-width: 8px 0 8px 15px;
     border-color: transparent transparent transparent #ffffff;
     position: absolute;
+    margin-left: 257px;
+    margin-top: -16px;
+    display: block;
 }
