@@ -161,12 +161,14 @@
 
 /* development */
 
+.development{
+    background-color: rgb(243,245,249)
+}
 
 .rockerbox{
-    max-width: 100%;
+
     background-color: white;
-    margin: auto;
-    display: inline-block;
+    width: calc(100% - 20px - 20px - 10px);
 }
 
 .move2{
