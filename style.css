@@ -33,8 +33,8 @@
     padding: 30px 0;
 }
 
-.border{
-    border: 1px solid black;
+.inline{
+    display: inline-block;
 }
 
 /* header */
@@ -57,6 +57,14 @@
     color: blue;
     border-radius: 10%;
 }
+
+.hamburger{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
 /* main */
 
     /* hero */
@@ -66,7 +74,7 @@
 }
 
 .panel{
-    margin: 5% 2% 5% 2%;
+    margin: 5% 2%;
     padding: 10px;
 }
 
@@ -120,13 +128,14 @@
     text-align: right;
 }
 
- .img-resp{
+.img-resp{
      width: calc(100% - 20px - 20px - 10px);
      /* i -20px sono lo spazio occupato dalle frecce laterali */
  }
 
 .sel-pal{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .pallino-pieno{
@@ -146,9 +155,6 @@
     border: 2px solid blue;
 }
 
-/* feature */
-
-
 /* service */
 
 .service{
@@ -166,16 +172,17 @@
 }
 
 .rockerbox{
-
-    background-color: white;
-    width: calc(100% - 20px - 20px - 10px);
-}
-
-.move2{
     display: inline-block;
     vertical-align: middle;
-    width: 20px;
-    font-size: 20px;
+    background-color: white;
+    width: calc(100% - 20px - 20px - 10px);
+    margin-bottom: 20px;
+}
+
+.rockerbox-img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* get start */
