@@ -109,6 +109,7 @@
 
 .deploy-descr{
     height: 100px;
+    line-height: 20px;
 }
 
 /* designed */
@@ -153,6 +154,12 @@
     border-radius: 50%;
     background-color: transparent;
     border: 2px solid blue;
+}
+
+/* feature */
+
+.feat-descr{
+    line-height: 20px;
 }
 
 /* service */
